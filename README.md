@@ -25,7 +25,7 @@
 
 <img src="./.github/asset/illustration/divider.png" alt="divider" width="100%" />
 
-<h2 id="about">
+<h2 id="about" align="center">
   <img src="./.github/asset/icon/information.png" width="24px" align="center"/>
   About
 </h2>
@@ -44,7 +44,7 @@ Every color and syntax token in this theme has been thoughtfully balanced to hig
 
 <img src="./.github/asset/illustration/divider.png" alt="divider" width="100%" />
 
-<h2 id="table-of-content">
+<h2 id="table-of-content" align="center">
   <img src="./.github/asset/icon/book.png" width="24px" align="center"/>
   Table of content
 </h2>
@@ -55,7 +55,7 @@ Every color and syntax token in this theme has been thoughtfully balanced to hig
 
 <img src="./.github/asset/illustration/divider.png" alt="divider" width="100%" />
 
-<h2 id="requirements">
+<h2 id="requirements" align="center">
   <img src="./.github/asset/icon/thunder.png" width="24px" align="center" />
   Requirements
 </h2>
@@ -68,7 +68,7 @@ Every color and syntax token in this theme has been thoughtfully balanced to hig
 
 <img src="./.github/asset/illustration/divider.png" alt="divider" width="100%" align="center" />
 
-<h2 id="usage">
+<h2 id="usage" align="center">
   <img src="./.github/asset/icon/rocket.png" width="24px" align="center" />
   Usage
 </h2>

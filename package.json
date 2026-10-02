@@ -46,8 +46,9 @@
     "preinstall": "npx only-allow bun",
     "typecheck": "tsc --noEmit",
     "release": "bun run build && bunx gitlys release && bun run package && bun run publish",
-    "lint": "eslint --fix",
-    "build": "bun src/global/util/generate_theme.ts",
+    "lint": "eslint . --fix --cache",
+    "type-check": "tsc --noEmit",
+    "build": "bun run lint && bun run type-check && bun src/global/util/generate_theme.ts",
     "watch": "bun --hot src/global/util/generate_theme.ts",
     "package": "vsce package --no-dependencies",
     "publish": "vsce publish --no-dependencies"
@@ -56,8 +57,8 @@
     "@types/node": "22.20.2",
     "@types/vscode": "1.125.0",
     "@vscode/vsce": "3.9.2",
-    "eslint-config-universal-code": "1.1.2",
-    "gitlys": "2.2.1",
+    "eslint-config-universal-code": "1.1.4",
+    "gitlys": "2.2.3",
     "tsup": "8.5.1",
     "typescript": "5.2.2"
   }

@@ -3,6 +3,7 @@
     "target": "ESNext",
     "rootDir": "./",
     "module": "esnext",
+    "moduleResolution": "bundler",
     "paths": {
       "@global/*": ["./src/global/*"],
       "@module/*": ["./src/module/*"],
@@ -38,10 +39,6 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  "include": [
-    "./src",
-    "eslint.config.js",
-    "tsup.config.ts"
-  ],
+  "include": [ "./src" ],
   "exclude": ["node_modules", "dist"]
 }
